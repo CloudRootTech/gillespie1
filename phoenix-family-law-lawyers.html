@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Gillespie, Shields & Taylor | phoenix family law lawyers</title>
+    <meta name="description" content="phoenix family law lawyers">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://gillespieshields.com/wp-content/uploads/2018/07/cropped-favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Gillespie, Shields & Taylor | phoenix family law lawyers">
+    <meta property="og:description" content="phoenix family law lawyers">
+    <meta property="og:image" content="project-media/118/gill1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/118/gill1.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="phoenix family law lawyers home">phoenix family law lawyers</a>
+            </h1>
+            <div><a href="facebook.com/pages/Gillespie-Shields-Durrant/102702163106298" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.instagram.com/gillespieshieldsandtaylorlaw/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a><a href="https://www.linkedin.com/company/gillespieshields/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/118/gill1.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">Gillespie, Shields & Taylor</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Phoenix Lawyers For Urgent Consultations</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Family-related legal matters often involve sensitive information, competing priorities, and decisions that benefit from an informed review. Speaking with <a href="https://gillespieshields.com/" class="inline-link">phoenix family law lawyers</a> can help a person identify the central issue, assemble relevant records, and understand which questions should be addressed first. A focused discussion with phoenix family law lawyers may also help distinguish legal considerations from practical concerns, making the next stage easier to approach.</p>
+                            <p>Before an appointment, it can be useful to gather court notices, existing agreements, financial documents, and a concise account of significant events. phoenix family law lawyers can review this material, explain unfamiliar procedures, and identify information that may still be needed. If several issues are connected, phoenix family law lawyers may help organize the conversation so that the client receives useful direction without losing sight of personal goals.</p>
+                            <p>Open communication is an important part of any professional relationship. Clients should feel comfortable describing uncertainties, asking how fees and confidentiality are handled, and confirming what actions will follow the meeting. By contacting phoenix family law lawyers, a person can create a clearer starting point for informed decisions while retaining flexibility as circumstances develop.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/119/gill2.jfif" loading="lazy" decoding="async" alt="phoenix family law lawyers image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Arizona Counsel For Domestic Relations</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>When a household dispute reaches a legal stage, the first decision is often how much support is needed and what kind of resolution is realistic. phoenix family law lawyers can outline the differences between limited assistance, ongoing representation, and full advocacy, helping a prospective client choose a service model that matches the situation. A conversation with phoenix family law lawyers may also reveal whether early settlement efforts are appropriate or whether a more formal approach is likely to be necessary.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Negotiated outcomes can be efficient, but they work best when each side understands the consequences of the proposed terms. phoenix family law lawyers may help assess concessions, identify unresolved points, and keep discussions directed toward a complete agreement rather than a temporary compromise. When cooperation breaks down, phoenix family law lawyers can prepare for hearings by organizing the presentation of facts, anticipating opposing arguments, and explaining the client's role in the proceeding.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/vfhH7FakrxY?si=I5ot0GOjAV7R9Aok" loading="lazy" title="phoenix family law lawyers video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Cost and accessibility deserve attention before a professional relationship begins. phoenix family law lawyers may be asked about billing methods, response times, likely stages of the matter, and the circumstances that could change the projected expense. Clear answers on these points make it easier to select appropriate representation and maintain a productive working relationship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Attorneys Serving Multigenerational Family Needs</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Sound legal planning can help relatives coordinate decisions about property, care, and long-term support before a crisis develops. phoenix family law lawyers can review existing documents and identify provisions that may no longer reflect current wishes. A meeting with phoenix family law lawyers may also bring attention to beneficiary designations, ownership records, and instructions that could conflict after marriage, divorce, or a major purchase. Revisiting these materials after significant changes helps ensure that the intended people receive appropriate authority and assets.</p>
+                            <p>Care arrangements often raise questions about authority, privacy, and financial responsibility. phoenix family law lawyers can explain how a power of attorney, health care directive, or court-supervised proceeding may affect a person's independence, while phoenix family law lawyers can help establish a process for communicating with caregivers and documenting important decisions. Early attention to capacity concerns may preserve an individual's preferences and prevent relatives from relying on informal assumptions when urgent action is needed.</p>
+                            <p>Property and business interests can create additional points of friction when relatives share expenses, homes, or ownership responsibilities. phoenix family law lawyers can help structure an agreement, assess transfer and tax considerations, and prepare for an orderly transition if circumstances change. Written terms can define contributions, decision-making authority, and exit options while leaving room for practical adjustments. Clear guidance and respectful communication provide a more reliable foundation for handling sensitive matters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>Gillespie, Shields & Taylor</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3325.344416878462!2d-112.0493476!3d33.5444267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b72a80199f433%3A0x130726de5a392147!2sGillespie%2C%20Shields%20%26%20Taylor!5e0!3m2!1sen!2sca!4v1791374038250!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">Gillespie, Shields & Taylor</p>
+                    <p style="color: #000000;">7319 North 16th Street
+Phoenix, AZ 85020</p>
+                    <p style="color: #000000;">602-870-9700</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Gillespie, Shields & Taylor</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="phoenix-family-law-lawyers.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="https://gillespieshields.com/" rel="noopener">https://gillespieshields.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm"></h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Useful Links</a></li>    <li><a class="link-light footer-link" href="https://gillespieshields.com/" rel="noopener"></a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/mRm9n1yoLrsnuo537" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="facebook.com/pages/Gillespie-Shields-Durrant/102702163106298" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://www.instagram.com/gillespieshieldsandtaylorlaw/" rel="noopener">Instagram</a></li>    <li><a class="link-light footer-link" href="https://www.linkedin.com/company/gillespieshields/" rel="noopener">Linkedin</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="Gilbert, Arizona">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>Gilbert, Arizona</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.realtor.com/rentals/details/240-W-Juniper-Ave-Unit-1269_Gilbert_AZ_85233_M19225-27676" target="_blank" rel="noopener noreferrer"><h3>240 W Juniper Ave Unit 1269, Gilbert, AZ 85233</h3><img src="https://ap.rdcpix.com/4c56f53d3d01b5e567e9eb894d33af85l-m2821580109od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $1850/mo. View 14 photos of this 2 bed, 2.5 bath, 1100 sqft. townhome for rent at 240 W Juniper Ave Unit 1269, Gilbert, AZ 85233.</p><div class="safe-news-meta">realtor.com - 14h</div></a><a class="safe-news-card" href="https://eraueagles.com/news/2026/10/16/womens-volleyball-eagles-rally-for-five-set-victory-over-park-gilbert.aspx" target="_blank" rel="noopener noreferrer"><h3>Eagles Rally for Five-Set Victory Over Park-Gilbert</h3><img src="https://images.sidearmdev.com/fit?url=https%3a%2f%2fdbukjj6eu5tsf.cloudfront.net%2fsidearm.sites%2ferauaz.sidearmsports.com%2fimages%2f2026%2f9%2f25%2f55520751535_6d33aa3b4e_o.jpg&amp;height=450&amp;width=800&amp;type=jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Eagles Rally for Five-Set Victory Over Park-Gilbert</p><div class="safe-news-meta">eraueagles.com - 2d</div></a><a class="safe-news-card" href="https://www.si.com/high-school/stats/arizona/football/teams/579727-american-leadership-academy-gilbert-north-eagles-fr/photos" target="_blank" rel="noopener noreferrer"><h3>American Leadership Academy  North Eagles Freshman Football (Gilbert, AZ) Photos</h3><img src="https://assets.scorebooklive.com/uploads/production/school/40298-v3/image/American_Leadership_Academy_-_Gilbert_North__AZ__Eagles_Logo.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View American Leadership Academy - Gilbert North Eagles Football photos.</p><div class="safe-news-meta">si.com - 2d</div></a><a class="safe-news-card" href="https://www.wboc.com/online_features/press_releases/gilbert-mortgage-broker-highlights-itin-lending-as-arizona-s-quietest-path-to-first-generation-homeownership/article_df0eaf70-c5ff-51a9-9501-85043fecfb55.html" target="_blank" rel="noopener noreferrer"><h3>Gilbert Mortgage Broker Highlights ITIN Lending as Arizona’s Quietest Path to First-Generation Homeownership</h3><img src="https://bloximages.newyork1.vip.townnews.com/wboc.com/content/tncms/assets/v3/editorial/3/ed/3ed68f5a-b409-5ce9-bd63-aa103aac62a9/6ad1b39016e91.image.jpg?crop=1080%2C567%2C0%2C256" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Just another WordPress site</p><div class="safe-news-meta">wboc.com - 3d</div></a><a class="safe-news-card" href="https://www.fox10phoenix.com/news/east-valley-stalker-who-sent-9-million-messages-shocked-took-long-get-arrested-police-say" target="_blank" rel="noopener noreferrer"><h3>East Valley stalker who sent &#x27;9 million messages&#x27; shocked it &#x27;took this long&#x27; to get arrested, police say</h3><img src="https://images.foxtv.com/static.fox10phoenix.com/www.fox10phoenix.com/content/uploads/2026/10/1200/630/austin-curtis-gfx.png?ve=1&amp;tl=1" alt="" loading="lazy" referrerpolicy="no-referrer"><p>An &quot;obsessed&quot; stalker dumped knives and dog poop on an ex-classmate’s porch after vowing in chilling voicemails to plow a U-Haul into a Pride parade and open fire, police said. Cops later seized an assault rifle from the Gilbert man&#x27;s apartment.</p><div class="safe-news-meta">fox10phoenix.com - 3d</div></a><a class="safe-news-card" href="https://www.bizjournals.com/phoenix/news/2026/10/16/j-alexanders-arizona-new-restaurant-gilbert.html" target="_blank" rel="noopener noreferrer"><h3>Just a moment...</h3><div class="safe-news-meta">bizjournals.com - 3d</div></a><a class="safe-news-card" href="https://www.legacy.com/us/obituaries/name/suzanne-white-obituary?id=62754809" target="_blank" rel="noopener noreferrer"><h3>Suzanne E. White Obituary (2026) , AZ - Mountain View Funeral Home &amp; Cemetery</h3><img src="https://cache.legacy.net/legacy/images/cobrands/legacyadn/photos/b029a2de-9776-4df8-8675-1a9d1715fbef.jpgx?w=600&amp;h=500" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View Suzanne E. White&#x27;s obituary, send flowers and sign the guestbook.</p><div class="safe-news-meta">legacy.com - 4d</div></a><a class="safe-news-card" href="https://azbigmedia.com/lifestyle/j-alexanders-will-open-new-gilbert-restaurant-in-november/" target="_blank" rel="noopener noreferrer"><h3>J. Alexander’s will open new Gilbert restaurant in November</h3><img src="https://azbigmedia.com/wp-content/uploads/2026/10/J.-Alexanders.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>J. Alexander’s is preparing to bring its signature experience to Gilbert this November at 2192 SanTan Village Pkwy.</p><div class="safe-news-meta">azbigmedia.com - 4d</div></a><a class="safe-news-card" href="https://ktar.com/arizona-business/salad-and-go-arizona-stores-buyers-addresses" target="_blank" rel="noopener noreferrer"><h3>Salad and Go plans Arizona comeback after sale</h3><img src="https://ktar.com/wp-content/uploads/2026/10/2026saladandgo09.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Swig, Dutch Bros, Just Salad and others won approval Wednesday. See every address, plus who bought the Salad and Go name for $180,000.</p><div class="safe-news-meta">ktar.com - 4d</div></a><a class="safe-news-card" href="https://mouthbysouthwest.com/2026/10/14/j-alexanders-to-open-2nd-arizona-restaurant-in-gilbert-next-month/" target="_blank" rel="noopener noreferrer"><h3>J. Alexander’s to open 2nd Arizona restaurant in Gilbert next month</h3><img src="https://mouthbysouthwest.com/wp-content/uploads/2026/10/JAlexanders101426.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Sorry! While most of MouthBySouthwest.com is free to read, MXSW Insider articles are for paid subscribers only. Learn how to become an MXSW Insider. Username Password Remember Me Forgot Password</p><div class="safe-news-meta">mouthbysouthwest.com - 4d</div></a><a class="safe-news-card" href="https://www.yahoo.com/lifestyle/articles/j-alexander-open-gilbert-arizona-182056342.html" target="_blank" rel="noopener noreferrer"><h3>J. Alexander’s to Open in Gilbert, Arizona</h3><img src="https://s.yimg.com/lo/mysterio/api/f20af4bb2ade15657a9d6c58f42e51cb538c002a12d63724fd6e7af04cad64c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffsr_455%2F3d8c9d9ff1d35831a757a6008dc023a6.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>J. Alexander’s, the premier dining destination recognized for its wood-fired cuisine, classic American fare and exceptional service, is preparing to bring its signature experience to Gilbert this Nove...</p><div class="safe-news-meta">yahoo.com - 4d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/4168-E-Appaloosa-Rd_Gilbert_AZ_85296_M98399-20888" target="_blank" rel="noopener noreferrer"><h3>4168 E Appaloosa Rd, Gilbert, AZ 85296</h3><img src="https://ap.rdcpix.com/0a8bde9c8a23520fc3934b368fba1e88l-m3895083179od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $3800/mo. View 76 photos of this 5 bed, 4 bath, 3398 sqft. single family home for rent at 4168 E Appaloosa Rd, Gilbert, AZ 85296.</p><div class="safe-news-meta">realtor.com - 5d</div></a><a class="safe-news-card" href="https://www.maxpreps.com/news/r9ZHxKlzgkyHv8uKnvIPPg/arizona-high-school-football-aia-week-8%2c-live-broadcasts%2c-scores%2c-state-rankings-and-statewide-statistical-leaders.htm" target="_blank" rel="noopener noreferrer"><h3>Arizona high school football: AIA Week 8, live broadcasts, scores, state rankings and statewide statistical leaders</h3><img src="https://image.maxpreps.io/editorial/article/c/4/4/c447d6af-73a9-4c82-87bf-cb8a9ef20f3e/34970a70-8516-4a8c-8798-380a37d3db2d_original.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>MaxPreps News - Arizona high school football live broadcasts, computer rankings, statewide stat leaders, schedules and scores - live and final.</p><div class="safe-news-meta">maxpreps.com - 5d</div></a><a class="safe-news-card" href="https://www.phoenixnewtimes.com/news/map-maricopa-county-ballot-drop-box-locations-2026-40676988/" target="_blank" rel="noopener noreferrer"><h3>Map: Find your nearest Maricopa County ballot drop box location</h3><img src="https://www.phoenixnewtimes.com/wp-content/uploads/sites/6/ww-media/mediaserver/phx/2024-43/ballot-drop-box-getty-e1782234333617.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Voters can drop off their ballots at boxes across the county for the midterm elections until November 3.</p><div class="safe-news-meta">phoenixnewtimes.com - 5d</div></a><a class="safe-news-card" href="https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/auto-glass-stars-opens-third-auto-glass-shop-location-in-gilbert-arizona/2444961" target="_blank" rel="noopener noreferrer"><h3>Auto Glass Stars Opens Third Auto Glass Shop Location in Gilbert, Arizona</h3><img src="https://cdnx.premiumread.com/?url=https://www.manilatimes.net/theme_manilatimes/images/TMT_1920x1008.jpg&amp;w=1920&amp;q=75&amp;f=webp&amp;v=1" alt="" loading="lazy" referrerpolicy="no-referrer"><p>GILBERT, AZ, Oct. 13, 2026 (GLOBE NEWSWIRE) --</p><div class="safe-news-meta">manilatimes.net - 5d</div></a><a class="safe-news-card" href="https://finance.yahoo.com/small-business/articles/auto-glass-stars-opens-third-161600350.html" target="_blank" rel="noopener noreferrer"><h3>Auto Glass Stars Opens Third Auto Glass Shop Location in Gilbert, Arizona</h3><img src="https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>GILBERT, AZ, Oct. 13, 2026 (GLOBE NEWSWIRE) -- Auto Glass Stars has opened its third location in Gilbert, Arizona, bringing both in-shop and mobile auto glass services to drivers throughout the area. The new location provides full-service glass repair and replacement at the shop as well as mobile service that travels to customer locations across Gilbert and the surrounding communities. The Gilbert opening marks continued growth for the company, which has operated in the auto glass industry for m</p><div class="safe-news-meta">finance.yahoo.com - 5d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/1671-W-Princeton-Ave_Gilbert_AZ_85233_M23082-20215" target="_blank" rel="noopener noreferrer"><h3>1671 W Princeton Ave, Gilbert, AZ 85233</h3><img src="https://ap.rdcpix.com/19304f49390f4dc47191e18e6c26073dl-m202816914od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $2300/mo. View 30 photos of this 3 bed, 2 bath, 1571 sqft. single family home for rent at 1671 W Princeton Ave, Gilbert, AZ 85233.</p><div class="safe-news-meta">realtor.com - 6d</div></a><a class="safe-news-card" href="https://www.legacy.com/us/obituaries/swrankinnews/name/lynne-hermanson-obituary?id=62738876" target="_blank" rel="noopener noreferrer"><h3>Lynne Hermanson Obituary (1951 - 2026) , AZ, AZ</h3><img src="https://cache.legacy.net/legacy/images/cobrands/kentontimes/photos/43195d20-8fde-4c74-9223-061dcf8a0567.jpgx?w=600&amp;h=500" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View Lynne Hermanson&#x27;s obituary, send flowers and sign the guestbook.</p><div class="safe-news-meta">legacy.com - 6d</div></a><a class="safe-news-card" href="https://fabulousarizona.com/food-drink/perrys-steakhouse-grille-opens-first-location-in-gilbert/" target="_blank" rel="noopener noreferrer"><h3>Perry’s Steakhouse &amp; Grille Opens First Location in Gilbert</h3><img src="https://fabulousarizona.com/wp-content/uploads/sites/2/2026/10/perrys-steakhouse-gilbert.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Perry&#x27;s Steakhouse &amp; Grille has more than 20 steakhouses, with Northside at SanTan Village in Gilbert marking its first Arizona location.</p><div class="safe-news-meta">fabulousarizona.com - 6d</div></a><a class="safe-news-card" href="http://desmoinesregister.xpr-gannett.com/press-release/story/137764/christopher-fine-diamonds-expands-east-valley-reach-with-personalized-jewelry-services-for-gilbert-arizona/" target="_blank" rel="noopener noreferrer"><h3>Christopher Fine Diamonds Expands East Valley Reach With Personalized Jewelry Services for Gilbert, Arizona</h3><img src="https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/29316174-gilbert-az-769x512.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Chandler jeweler expands service to Gilbert with custom engagement rings, CAD design, diamonds, repairs, appraisals and</p><div class="safe-news-meta">desmoinesregister.xpr-gannett.com - 7d</div></a><a class="safe-news-card" href="https://www.einnews.com/pr_news/948921868/christopher-fine-diamonds-expands-east-valley-reach-with-personalized-jewelry-services-for-gilbert-arizona" target="_blank" rel="noopener noreferrer"><h3>Christopher Fine Diamonds Expands East Valley Reach With Personalized Jewelry Services for Gilbert, Arizona</h3><img src="https://img.einnews.com/ampsize/1209922/gilbert-az.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Chandler jeweler expands service to Gilbert with custom engagement rings, CAD design, diamonds, repairs, appraisals and fine jewelry.</p><div class="safe-news-meta">einnews.com - 7d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/1540-E-San-Carlos-Way_Gilbert_AZ_85298_M91403-83410" target="_blank" rel="noopener noreferrer"><h3>1540 E San Carlos Way, Gilbert, AZ 85298</h3><img src="https://ap.rdcpix.com/77b10cf9ec56c163c1996d7b11b365fdl-m3222044918od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $3900/mo. View 24 photos of this 4 bed, 3.5 bath, 2945 sqft. single family home for rent at 1540 E San Carlos Way, Gilbert, AZ 85298.</p><div class="safe-news-meta">realtor.com - 7d</div></a><a class="safe-news-card" href="https://www.legacy.com/us/obituaries/name/jeanette-aurit-obituary?id=62727633" target="_blank" rel="noopener noreferrer"><h3>Jeanette Daisy Aurit Obituary (2026) , AZ - Whitney &amp; Murphy Funeral Home</h3><img src="https://cache.legacy.net/legacy/images/cobrands/legacypro/photos/4cc7ac39-3235-4deb-a3b5-f9fcead2047d.jpgx?w=600&amp;h=315" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View Jeanette Daisy Aurit&#x27;s obituary, send flowers and sign the guestbook.</p><div class="safe-news-meta">legacy.com - 7d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/706-N-Cedar-St_Gilbert_AZ_85233_M21469-04173" target="_blank" rel="noopener noreferrer"><h3>706 N Cedar St, Gilbert, AZ 85233</h3><img src="https://ap.rdcpix.com/1f9b9b896b32680c752dab93ca94cf90l-m3234373414od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $2350/mo. View 40 photos of this 3 bed, 2 bath, 1575 sqft. single family home for rent at 706 N Cedar St, Gilbert, AZ 85233.</p><div class="safe-news-meta">realtor.com - 8d</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
